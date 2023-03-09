@@ -1,0 +1,221 @@
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.mm10.ce11', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', arch='hybrid', pretrain=None, bottleneck_dim=256, no_pool=False, scratch=True, batch_size=32, lr=0.001, pretrain_lr=0.001, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, weight_decay=0.001, workers=2, epochs=120, pretrain_epochs=10, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='adda-His.ALL.05.H3K79me1.AllCell.mm10.ce11-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/adda.py:52: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+0it [00:00, ?it/s]41it [00:00, 354.30it/s]109it [00:00, 533.99it/s]353it [00:00, 1153.37it/s]
+0it [00:00, ?it/s]65it [00:00, 533.21it/s]135it [00:00, 622.60it/s]216it [00:00, 520.98it/s]271it [00:00, 487.98it/s]353it [00:00, 626.28it/s]
+/home/platyshev/.conda/envs/adapt_env/lib/python3.9/site-packages/torch/nn/modules/rnn.py:769: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/cudnn/RNN.cpp:968.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/22]	Time  3.465 ( 3.465)	Loss 8.0677e-01 (8.0677e-01)	Acc@1  81.25 ( 81.25)
+ * Acc@1 59.091
+PR AUC 63.150
+ROC AUC 57.921
+59.09090909090909
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.ce11.mm10', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', arch='hybrid', pretrain=None, bottleneck_dim=256, no_pool=False, scratch=True, batch_size=32, lr=0.001, pretrain_lr=0.001, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, weight_decay=0.001, workers=2, epochs=120, pretrain_epochs=10, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='adda-His.ALL.05.H3K79me1.AllCell.ce11.mm10-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/adda.py:52: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+0it [00:00, ?it/s]244it [00:00, 1911.82it/s]436it [00:00, 1166.12it/s]580it [00:00, 1219.56it/s]735it [00:00, 1318.79it/s]966it [00:00, 1618.81it/s]1139it [00:00, 1023.39it/s]1367it [00:01, 1168.54it/s]1508it [00:01, 1063.13it/s]1631it [00:01, 893.23it/s] 1814it [00:01, 1033.92it/s]1951it [00:01, 1037.35it/s]2152it [00:01, 1160.27it/s]2309it [00:01, 1252.27it/s]2443it [00:02, 1038.04it/s]2570it [00:02, 1015.63it/s]2733it [00:02, 1137.59it/s]2922it [00:02, 1247.28it/s]3054it [00:02, 1099.44it/s]3171it [00:02, 941.98it/s] 3448it [00:02, 1344.06it/s]3602it [00:03, 1364.61it/s]3753it [00:03, 1234.49it/s]3888it [00:03, 1012.38it/s]4003it [00:03, 857.70it/s] 4105it [00:03, 870.21it/s]4201it [00:03, 766.01it/s]4285it [00:04, 779.03it/s]4412it [00:04, 887.54it/s]4508it [00:04, 904.37it/s]4681it [00:04, 1068.41it/s]4857it [00:04, 1150.56it/s]5071it [00:04, 1403.74it/s]5224it [00:04, 1283.54it/s]5374it [00:04, 1338.55it/s]5513it [00:05, 1054.33it/s]5631it [00:05, 801.12it/s] 5884it [00:05, 1110.68it/s]6116it [00:05, 1308.21it/s]6284it [00:05, 1391.10it/s]6441it [00:05, 1071.42it/s]6576it [00:05, 1128.52it/s]6707it [00:06, 1069.39it/s]6827it [00:06, 1041.67it/s]6940it [00:06, 870.63it/s] 7109it [00:06, 1011.30it/s]7220it [00:06, 1033.33it/s]7386it [00:06, 1188.21it/s]7514it [00:06, 1060.48it/s]7628it [00:07, 957.02it/s] 7731it [00:07, 936.67it/s]7848it [00:07, 956.42it/s]7949it [00:07, 939.38it/s]8046it [00:07, 856.10it/s]8134it [00:07, 814.44it/s]8233it [00:07, 812.62it/s]8360it [00:07, 906.16it/s]8453it [00:08, 753.21it/s]8547it [00:08, 797.27it/s]8730it [00:08, 962.58it/s]8829it [00:08, 966.33it/s]8962it [00:08, 1044.92it/s]9075it [00:08, 1010.92it/s]9178it [00:08, 922.28it/s] 9273it [00:08, 819.85it/s]9439it [00:09, 1001.23it/s]9544it [00:09, 1012.27it/s]9649it [00:09, 921.86it/s] 9761it [00:09, 835.09it/s]9849it [00:09, 728.46it/s]9967it [00:09, 804.36it/s]10224it [00:09, 1225.29it/s]10425it [00:09, 1391.30it/s]10576it [00:10, 1267.80it/s]10713it [00:10, 1137.11it/s]10851it [00:10, 1091.73it/s]11036it [00:10, 1211.11it/s]11163it [00:10, 996.99it/s] 11272it [00:10, 847.03it/s]11374it [00:10, 864.77it/s]11593it [00:11, 1065.10it/s]11705it [00:11, 952.73it/s] 11847it [00:11, 1057.11it/s]12150it [00:11, 1533.79it/s]12320it [00:11, 1479.79it/s]12480it [00:11, 1289.37it/s]12488it [00:11, 1060.01it/s]
+0it [00:00, ?it/s]75it [00:00, 684.82it/s]225it [00:00, 1042.90it/s]329it [00:00, 841.22it/s] 416it [00:00, 686.93it/s]667it [00:00, 1139.20it/s]803it [00:00, 1186.96it/s]951it [00:00, 1240.00it/s]1081it [00:01, 927.84it/s]1190it [00:01, 959.60it/s]1297it [00:01, 697.71it/s]1436it [00:01, 825.46it/s]1536it [00:01, 820.15it/s]1648it [00:01, 887.62it/s]1752it [00:01, 924.66it/s]1874it [00:02, 999.04it/s]1981it [00:02, 952.23it/s]2085it [00:02, 947.25it/s]2187it [00:02, 896.83it/s]2280it [00:02, 728.21it/s]2407it [00:02, 852.54it/s]2501it [00:02, 808.14it/s]2588it [00:02, 775.90it/s]2729it [00:03, 933.42it/s]2892it [00:03, 1020.91it/s]3151it [00:03, 1420.80it/s]3323it [00:03, 1447.97it/s]3475it [00:03, 1066.48it/s]3600it [00:03, 1084.09it/s]3722it [00:03, 1091.52it/s]3841it [00:03, 1057.85it/s]3963it [00:04, 1013.63it/s]4070it [00:04, 920.81it/s] 4233it [00:04, 1073.77it/s]4346it [00:04, 976.05it/s] 4449it [00:04, 887.02it/s]4616it [00:04, 1073.46it/s]4731it [00:04, 886.49it/s] 4858it [00:05, 943.99it/s]5011it [00:05, 1083.69it/s]5129it [00:05, 1045.58it/s]5366it [00:05, 1290.35it/s]5499it [00:05, 909.15it/s] 5701it [00:05, 1133.29it/s]5875it [00:05, 1219.62it/s]6015it [00:06, 1132.44it/s]6141it [00:06, 1052.79it/s]6256it [00:06, 1019.94it/s]6364it [00:06, 934.98it/s] 6462it [00:06, 891.68it/s]6591it [00:06, 955.83it/s]6690it [00:06, 954.89it/s]6788it [00:06, 750.56it/s]7016it [00:07, 1095.33it/s]7148it [00:07, 1119.02it/s]7369it [00:07, 1386.69it/s]7521it [00:07, 1268.30it/s]7659it [00:07, 1156.86it/s]7791it [00:07, 1123.30it/s]7914it [00:07, 1050.88it/s]8024it [00:07, 999.04it/s] 8159it [00:08, 973.94it/s]8338it [00:08, 1147.39it/s]8458it [00:08, 1118.10it/s]8629it [00:08, 1229.76it/s]8755it [00:08, 1201.85it/s]8878it [00:08, 1202.36it/s]9000it [00:08, 991.24it/s] 9106it [00:09, 931.29it/s]9250it [00:09, 1031.29it/s]9358it [00:09, 899.67it/s] 9454it [00:09, 851.89it/s]9607it [00:09, 1014.78it/s]9837it [00:09, 1283.80it/s]9971it [00:09, 1122.36it/s]10090it [00:09, 1046.97it/s]10200it [00:10, 964.03it/s] 10300it [00:10, 871.07it/s]10578it [00:10, 1270.05it/s]10713it [00:10, 1037.69it/s]10841it [00:10, 1070.76it/s]10962it [00:10, 1098.67it/s]11079it [00:10, 1065.29it/s]11244it [00:10, 1175.87it/s]11366it [00:11, 918.61it/s] 11469it [00:11, 872.10it/s]11581it [00:11, 828.36it/s]11799it [00:11, 1132.10it/s]11926it [00:11, 1149.47it/s]12055it [00:11, 1169.97it/s]12180it [00:11, 1046.67it/s]12292it [00:12, 903.92it/s] 12468it [00:12, 1043.62it/s]12488it [00:12, 1015.80it/s]
+/home/platyshev/.conda/envs/adapt_env/lib/python3.9/site-packages/torch/nn/modules/rnn.py:769: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at  /opt/conda/conda-bld/pytorch_1659484806139/work/aten/src/ATen/native/cudnn/RNN.cpp:968.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [  0/777]	Time  2.715 ( 2.715)	Loss 8.8624e-01 (8.8624e-01)	Acc@1  62.50 ( 62.50)
+Test: [100/777]	Time  0.006 ( 0.038)	Loss 8.4460e-01 (1.0669e+00)	Acc@1  65.62 ( 58.32)
+Test: [200/777]	Time  0.004 ( 0.024)	Loss 1.2432e+00 (1.1181e+00)	Acc@1  46.88 ( 56.39)
+Test: [300/777]	Time  0.004 ( 0.019)	Loss 1.2776e+00 (1.1120e+00)	Acc@1  46.88 ( 56.75)
+Test: [400/777]	Time  0.004 ( 0.017)	Loss 8.7700e-01 (1.1133e+00)	Acc@1  68.75 ( 56.94)
+Test: [500/777]	Time  0.010 ( 0.016)	Loss 1.1435e+00 (1.1159e+00)	Acc@1  53.12 ( 56.76)
+Test: [600/777]	Time  0.015 ( 0.015)	Loss 1.2285e+00 (1.1139e+00)	Acc@1  53.12 ( 56.98)
+Test: [700/777]	Time  0.004 ( 0.014)	Loss 1.0043e+00 (1.1140e+00)	Acc@1  50.00 ( 57.10)
+ * Acc@1 57.091
+PR AUC 62.195
+ROC AUC 64.091
+57.09057271557271
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.hg38.mm10', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', arch='hybrid', no_pool=False, scratch=True, num_blocks=1, bottleneck_dim=256, dropout_p=0.5, batch_size=32, lr=0.001, momentum=0.9, weight_decay=0.0005, trade_off_norm=0.005, trade_off_entropy=None, delta=1, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='afn-His.ALL.05.H3K79me1.AllCell.hg38.mm10-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/afn.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [  0/777]	Time  2.918 ( 2.918)	Loss 1.9440e+00 (1.9440e+00)	Acc@1  62.50 ( 62.50)
+Test: [100/777]	Time  0.009 ( 0.039)	Loss 1.3349e+00 (1.9214e+00)	Acc@1  87.50 ( 73.02)
+Test: [200/777]	Time  0.003 ( 0.025)	Loss 2.6472e+00 (1.8852e+00)	Acc@1  65.62 ( 72.79)
+Test: [300/777]	Time  0.003 ( 0.021)	Loss 1.1538e+00 (1.9203e+00)	Acc@1  90.62 ( 72.34)
+Test: [400/777]	Time  0.035 ( 0.018)	Loss 1.2606e+00 (1.9033e+00)	Acc@1  75.00 ( 72.40)
+Test: [500/777]	Time  0.004 ( 0.016)	Loss 1.3814e+00 (1.9034e+00)	Acc@1  71.88 ( 72.42)
+Test: [600/777]	Time  0.004 ( 0.016)	Loss 2.8885e+00 (1.8999e+00)	Acc@1  62.50 ( 72.42)
+Test: [700/777]	Time  0.004 ( 0.015)	Loss 9.3709e-01 (1.9059e+00)	Acc@1  84.38 ( 72.48)
+ * Acc@1 72.523
+PR AUC 79.769
+ROC AUC 78.661
+72.52252252252252
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.mm10.ce11', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, randomized=False, randomized_dim=1024, entropy=False, trade_off=0.5, batch_size=32, lr=0.01, lr_gamma=0.001, lr_decay=0.75, momentum=0.9, weight_decay=0.001, workers=2, epochs=120, iters_per_epoch=1000, print_freq=100, seed=1, per_class_eval=False, log='cdan-His.ALL.05.H3K79me1.AllCell.mm10.ce11-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/cdan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/22]	Time  3.047 ( 3.047)	Loss 2.8184e+00 (2.8184e+00)	Acc@1  50.00 ( 50.00)
+ * Acc@1 51.136
+PR AUC 60.987
+ROC AUC 50.538
+51.13636363636363
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.dm6.mm10', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, non_linear=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='dan-His.ALL.05.H3K79me1.AllCell.dm6.mm10-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/dan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [  0/777]	Time  3.670 ( 3.670)	Loss 7.3167e-01 (7.3167e-01)	Acc@1  56.25 ( 56.25)
+Test: [100/777]	Time  0.003 ( 0.047)	Loss 5.6076e-01 (5.5136e-01)	Acc@1  65.62 ( 71.91)
+Test: [200/777]	Time  0.003 ( 0.030)	Loss 4.9063e-01 (5.6389e-01)	Acc@1  75.00 ( 70.83)
+Test: [300/777]	Time  0.005 ( 0.024)	Loss 4.5079e-01 (5.6934e-01)	Acc@1  81.25 ( 70.50)
+Test: [400/777]	Time  0.003 ( 0.021)	Loss 5.1979e-01 (5.6723e-01)	Acc@1  78.12 ( 70.79)
+Test: [500/777]	Time  0.003 ( 0.019)	Loss 6.9836e-01 (5.6628e-01)	Acc@1  62.50 ( 71.06)
+Test: [600/777]	Time  0.063 ( 0.017)	Loss 6.9004e-01 (5.6916e-01)	Acc@1  68.75 ( 70.85)
+Test: [700/777]	Time  0.004 ( 0.017)	Loss 5.7214e-01 (5.7079e-01)	Acc@1  71.88 ( 70.80)
+ * Acc@1 70.620
+PR AUC 78.989
+ROC AUC 81.306
+70.62017374517374
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.dm6.ce11', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, non_linear=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='dan-His.ALL.05.H3K79me1.AllCell.dm6.ce11-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/dan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/22]	Time  3.602 ( 3.602)	Loss 7.5338e-01 (7.5338e-01)	Acc@1  53.12 ( 53.12)
+ * Acc@1 54.972
+PR AUC 55.677
+ROC AUC 44.358
+54.97159090909091
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.mm10.hg38', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, non_linear=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='dan-His.ALL.05.H3K79me1.AllCell.mm10.hg38-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/dan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/11]	Time  3.536 ( 3.536)	Loss 1.9278e+00 (1.9278e+00)	Acc@1  40.62 ( 40.62)
+ * Acc@1 57.670
+PR AUC 58.349
+ROC AUC 57.568
+57.67045454545455
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.ce11.hg38', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, non_linear=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='dan-His.ALL.05.H3K79me1.AllCell.ce11.hg38-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/dan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/11]	Time  3.272 ( 3.272)	Loss 4.5138e+00 (4.5138e+00)	Acc@1  46.88 ( 46.88)
+ * Acc@1 49.716
+PR AUC 51.831
+ROC AUC 45.855
+49.71590909090909
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.hg38.ce11', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, trade_off=1.0, batch_size=32, lr=0.01, lr_gamma=0.001, lr_decay=0.75, momentum=0.9, weight_decay=0.001, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='dann-His.ALL.05.H3K79me1.AllCell.hg38.ce11-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/dann.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/22]	Time  3.222 ( 3.222)	Loss 2.9127e+00 (2.9127e+00)	Acc@1  75.00 ( 75.00)
+ * Acc@1 50.000
+PR AUC 49.948
+ROC AUC 49.961
+50.0
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.dm6.hg38', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, linear=False, adversarial=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='jan-His.ALL.05.H3K79me1.AllCell.dm6.hg38-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/jan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/11]	Time  3.548 ( 3.548)	Loss 1.2804e+00 (1.2804e+00)	Acc@1  56.25 ( 56.25)
+ * Acc@1 49.148
+PR AUC 52.625
+ROC AUC 46.017
+49.14772727272727
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.ce11.mm10', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, linear=False, adversarial=False, trade_off=0.5, batch_size=32, lr=0.003, lr_gamma=0.0003, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='jan-His.ALL.05.H3K79me1.AllCell.ce11.mm10-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/jan.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [  0/777]	Time  3.520 ( 3.520)	Loss 4.6234e+00 (4.6234e+00)	Acc@1  50.00 ( 50.00)
+Test: [100/777]	Time  0.021 ( 0.048)	Loss 2.8887e+00 (2.1122e+00)	Acc@1  59.38 ( 67.98)
+Test: [200/777]	Time  0.012 ( 0.030)	Loss 1.9546e+00 (2.2270e+00)	Acc@1  71.88 ( 67.40)
+Test: [300/777]	Time  0.005 ( 0.024)	Loss 8.8832e-01 (2.2598e+00)	Acc@1  78.12 ( 66.85)
+Test: [400/777]	Time  0.028 ( 0.021)	Loss 3.3696e+00 (2.2456e+00)	Acc@1  65.62 ( 67.00)
+Test: [500/777]	Time  0.004 ( 0.019)	Loss 2.6026e+00 (2.2507e+00)	Acc@1  56.25 ( 66.88)
+Test: [600/777]	Time  0.005 ( 0.017)	Loss 2.0419e+00 (2.2863e+00)	Acc@1  75.00 ( 66.65)
+Test: [700/777]	Time  0.003 ( 0.016)	Loss 2.7055e+00 (2.3122e+00)	Acc@1  56.25 ( 66.48)
+ * Acc@1 66.413
+PR AUC 80.020
+ROC AUC 78.362
+66.41328828828829
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.mm10.hg38', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.mm10.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.mm10.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, temperature=2.5, trade_off=0.05, batch_size=36, lr=0.005, lr_gamma=0.001, lr_decay=0.75, momentum=0.9, weight_decay=0.001, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='mcc-His.ALL.05.H3K79me1.AllCell.mm10.hg38-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcc.py:39: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [ 0/10]	Time  3.260 ( 3.260)	Loss 2.6997e+00 (2.6997e+00)	Acc@1  50.00 ( 50.00)
+ * Acc@1 63.889
+PR AUC 64.291
+ROC AUC 63.264
+63.8888858795166
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.dm6.hg38', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.hg38.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.hg38.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, trade_off=0.1, trade_off_entropy=0.01, num_k=4, batch_size=32, lr=0.001, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='mcd-His.ALL.05.H3K79me1.AllCell.dm6.hg38-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:43: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:284: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y1_preds.append(F.softmax(y1))
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:285: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y2_preds.append(F.softmax(y2))
+Test: [ 0/11]	Time  7.048 ( 7.048)	Acc_1  53.12 ( 53.12)	Acc_2  53.12 ( 53.12)
+ * Acc1 58.807 Acc2 59.091
+F1 PR AUC 63.125
+F2 PR AUC 62.391
+F1 ROC AUC 61.577
+F2 ROC AUC 61.633
+(58.80681818181818, 59.09090909090909)
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.ce11.dm6', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, trade_off=0.1, trade_off_entropy=0.01, num_k=4, batch_size=32, lr=0.001, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='mcd-His.ALL.05.H3K79me1.AllCell.ce11.dm6-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:43: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:284: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y1_preds.append(F.softmax(y1))
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mcd.py:285: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y2_preds.append(F.softmax(y2))
+Test: [  0/695]	Time  3.358 ( 3.358)	Acc_1  59.38 ( 59.38)	Acc_2  59.38 ( 59.38)
+Test: [100/695]	Time  0.003 ( 0.046)	Acc_1  40.62 ( 59.38)	Acc_2  40.62 ( 59.31)
+Test: [200/695]	Time  0.041 ( 0.028)	Acc_1  53.12 ( 59.19)	Acc_2  53.12 ( 59.13)
+Test: [300/695]	Time  0.016 ( 0.023)	Acc_1  65.62 ( 59.21)	Acc_2  65.62 ( 59.17)
+Test: [400/695]	Time  0.008 ( 0.020)	Acc_1  65.62 ( 59.12)	Acc_2  65.62 ( 59.09)
+Test: [500/695]	Time  0.005 ( 0.019)	Acc_1  56.25 ( 59.08)	Acc_2  56.25 ( 59.08)
+Test: [600/695]	Time  0.003 ( 0.018)	Acc_1  62.50 ( 59.01)	Acc_2  62.50 ( 59.01)
+ * Acc1 59.011 Acc2 58.997
+F1 PR AUC 61.368
+F2 PR AUC 61.406
+F1 ROC AUC 62.602
+F2 ROC AUC 62.573
+(59.010791366906474, 58.99730215827338)
+Namespace(data_name='His.ALL.05.H3K79me1.AllCell.ce11.dm6', ds_cache='datasets', source_positive='His.ALL.05.H3K79me1.AllCell.ce11.preproc.fa', source_negative='His.ALL.05.H3K79me1.AllCell.ce11.preproc.random.fa', target_train='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random2x.fa', target_positive='His.ALL.05.H3K79me1.AllCell.dm6.preproc.fa', target_negative='His.ALL.05.H3K79me1.AllCell.dm6.preproc.random.fa', arch='hybrid', bottleneck_dim=256, no_pool=False, scratch=True, margin=4.0, trade_off=0.5, batch_size=32, lr=0.004, lr_gamma=0.0002, lr_decay=0.75, momentum=0.9, wd=0.0005, workers=2, epochs=120, iters_per_epoch=500, print_freq=100, seed=1, per_class_eval=False, log='mdd-His.ALL.05.H3K79me1.AllCell.ce11.dm6-seed-1', phase='test')
+/home/platyshev/His.ALL.05.H3K79me1.AllCell/../methods/mdd.py:40: UserWarning: You have chosen to seed training. This will turn on the CUDNN deterministic setting, which can slow down your training considerably! You may see unexpected behavior when restarting from checkpoints.
+  warnings.warn('You have chosen to seed training. '
+=> using model 'hybrid'
+/home/platyshev/Sequence-Transfer-Learning-Library/examples/domain_adaptation/dna_classification/utils.py:194: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y_preds.append(F.softmax(output))
+Test: [  0/695]	Time  2.936 ( 2.936)	Loss 1.6255e+00 (1.6255e+00)	Acc@1  50.00 ( 50.00)
+Test: [100/695]	Time  0.005 ( 0.037)	Loss 1.1694e+00 (1.4583e+00)	Acc@1  65.62 ( 60.21)
+Test: [200/695]	Time  0.003 ( 0.023)	Loss 1.3279e+00 (1.4219e+00)	Acc@1  65.62 ( 61.26)
+Test: [300/695]	Time  0.006 ( 0.018)	Loss 1.7268e+00 (1.4285e+00)	Acc@1  43.75 ( 61.20)
+Test: [400/695]	Time  0.033 ( 0.015)	Loss 1.4014e+00 (1.4206e+00)	Acc@1  65.62 ( 61.28)
+Test: [500/695]	Time  0.004 ( 0.013)	Loss 1.3396e+00 (1.4258e+00)	Acc@1  56.25 ( 61.32)
+Test: [600/695]	Time  0.003 ( 0.012)	Loss 1.3312e+00 (1.4366e+00)	Acc@1  62.50 ( 61.00)
+ * Acc@1 61.178
+PR AUC 62.960
+ROC AUC 65.053
+61.17805755395683

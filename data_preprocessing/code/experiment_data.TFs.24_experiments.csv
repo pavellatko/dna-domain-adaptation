@@ -1,0 +1,25 @@
+experimental_id,genome_assembly,antigen_class,antigen,cell_type_class,cell_type,no_peaks,no_assemblies_by_cell_type
+SRX4284008,hg38,TFs and others,CTCF,Blood,B cells,49829,2
+SRX3753608,mm10,TFs and others,CTCF,Blood,B cells,60907,2
+SRX5299873,hg38,TFs and others,CTCF,Blood,Erythroid Cells,56097,2
+SRX2741819,mm10,TFs and others,CTCF,Blood,Erythroid Cells,35385,2
+SRX188963,hg38,TFs and others,CTCF,Kidney,Kidney,36808,2
+SRX062960,mm10,TFs and others,CTCF,Kidney,Kidney,47813,2
+SRX188959,hg38,TFs and others,CTCF,Lung,Lung,28913,2
+SRX062972,mm10,TFs and others,CTCF,Lung,Lung,31563,2
+SRX2166891,hg38,TFs and others,CTCF,Neural,Retina,28913,2
+SRX2172628,mm10,TFs and others,CTCF,Neural,Retina,25924,2
+SRX4377124,hg38,TFs and others,CTCF,Pluripotent stem cell,ES cells,45703,2
+SRX1704883,mm10,TFs and others,CTCF,Pluripotent stem cell,ES cells,61570,2
+SRX4001763,hg38,TFs and others,RAD21,Blood,Macrophages,29709,2
+SRX3581756,mm10,TFs and others,RAD21,Blood,Macrophages,46043,2
+SRX5574369,hg38,TFs and others,SPI1,Blood,Dendritic Cells,44698,2
+SRX5095872,mm10,TFs and others,SPI1,Blood,Dendritic Cells,44042,2
+SRX1089832,hg38,TFs and others,SPI1,Blood,Hematopoietic Stem Cells,29105,2
+SRX2341954,mm10,TFs and others,SPI1,Blood,Hematopoietic Stem Cells,58809,2
+SRX093189,hg38,TFs and others,SPI1,Blood,Macrophages,56245,2
+SRX197253,mm10,TFs and others,SPI1,Blood,Macrophages,62298,2
+SRX5574348,hg38,TFs and others,SPI1,Blood,Neutrophils,39479,2
+SRX3723675,mm10,TFs and others,SPI1,Blood,Neutrophils,56599,2
+SRX1799591,hg38,TFs and others,TBX21,Blood,Th1 Cells,54426,2
+SRX107338,mm10,TFs and others,TBX21,Blood,Th1 Cells,28040,2

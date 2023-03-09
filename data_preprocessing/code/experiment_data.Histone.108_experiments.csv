@@ -1,0 +1,109 @@
+experimental_id,genome_assembly,antigen_class,antigen,cell_type_class,cell_type,no_peaks,no_assemblies_by_cell_type
+SRX2339190,hg38,Histone,H3K27AC,Blood,B cells,28565,2
+SRX753157,mm10,Histone,H3K27AC,Blood,B cells,48873,2
+SRX212429,hg38,Histone,H3K27AC,Blood,CD4+ T cells,40418,2
+SRX3067412,mm10,Histone,H3K27AC,Blood,CD4+ T cells,47268,2
+SRX183902,hg38,Histone,H3K27AC,Blood,CD8+ T cells,26830,2
+SRX3802591,mm10,Histone,H3K27AC,Blood,CD8+ T cells,40042,2
+SRX1614814,hg38,Histone,H3K27AC,Blood,Dendritic Cells,30371,2
+SRX099253,mm10,Histone,H3K27AC,Blood,Dendritic Cells,37070,2
+SRX1089819,hg38,Histone,H3K27AC,Blood,Erythroblasts,30787,2
+SRX6797037,mm10,Histone,H3K27AC,Blood,Erythroblasts,48022,2
+SRX1089818,hg38,Histone,H3K27AC,Blood,Hematopoietic Stem Cells,36645,2
+SRX1293140,mm10,Histone,H3K27AC,Blood,Hematopoietic Stem Cells,50366,2
+SRX1733637,hg38,Histone,H3K27AC,Blood,Macrophages,60430,2
+SRX150851,mm10,Histone,H3K27AC,Blood,Macrophages,55517,2
+SRX3421773,hg38,Histone,H3K27AC,Blood,Mast Cells,49773,2
+SRX1456419,mm10,Histone,H3K27AC,Blood,Mast Cells,52798,2
+SRX3734310,hg38,Histone,H3K27AC,Breast,Mammary glands,59366,2
+SRX4169575,mm10,Histone,H3K27AC,Breast,Mammary glands,59891,2
+SRX5376045,hg38,Histone,H3K27AC,Cardiovascular,Heart Ventricles,56685,2
+SRX1308280,mm10,Histone,H3K27AC,Cardiovascular,Heart Ventricles,60767,2
+SRX2869673,hg38,Histone,H3K27AC,Liver,Hepatocytes,56707,2
+SRX4051363,mm10,Histone,H3K27AC,Liver,Hepatocytes,34374,2
+SRX5806022,hg38,Histone,H3K27AC,Neural,Cerebellum,61308,2
+SRX545938,mm10,Histone,H3K27AC,Neural,Cerebellum,45569,2
+SRX4668969,hg38,Histone,H3K27AC,Neural,Neural Stem Cells,50099,2
+ERX190775,mm10,Histone,H3K27AC,Neural,Neural Stem Cells,31834,2
+SRX2911564,hg38,Histone,H3K27AC,Neural,Neuroblastoma,47362,2
+SRX2960255,mm10,Histone,H3K27AC,Neural,Neuroblastoma,50865,2
+ERX2078878,hg38,Histone,H3K27AC,Pancreas,Pancreatic adenocarcinoma,31801,2
+SRX8026858,mm10,Histone,H3K27AC,Pancreas,Pancreatic adenocarcinoma,50325,2
+SRX2853313,hg38,Histone,H3K27AC,Pancreas,Pancreatic ductal adenocarcinoma,43849,2
+SRX2853272,mm10,Histone,H3K27AC,Pancreas,Pancreatic ductal adenocarcinoma,57105,2
+SRX1053363,hg38,Histone,H3K27AC,Pluripotent stem cell,ES cells,37006,2
+ERX2604632,mm10,Histone,H3K27AC,Pluripotent stem cell,ES cells,61751,2
+SRX5195514,hg38,Histone,H3K27AC,Pluripotent stem cell,iPS cells,56977,2
+SRX4397593,mm10,Histone,H3K27AC,Pluripotent stem cell,iPS cells,41176,2
+SRX8406336,hg38,Histone,H3K27AC,Prostate,Prostate,61086,2
+SRX373259,mm10,Histone,H3K27AC,Prostate,Prostate,36023,2
+SRX212464,hg38,Histone,H3K4ME1,Blood,CD4+ T cells,50144,2
+SRX2647485,mm10,Histone,H3K4ME1,Blood,CD4+ T cells,60397,2
+SRX1089811,hg38,Histone,H3K4ME1,Blood,Hematopoietic Stem Cells,45145,2
+SRX540683,mm10,Histone,H3K4ME1,Blood,Hematopoietic Stem Cells,59082,2
+SRX3586322,hg38,Histone,H3K4ME1,Blood,Macrophages,25627,2
+SRX150846,mm10,Histone,H3K4ME1,Blood,Macrophages,61569,2
+SRX2004213,hg38,Histone,H3K4ME1,Blood,Monocytes,58115,2
+SRX4018265,mm10,Histone,H3K4ME1,Blood,Monocytes,53118,2
+SRX5391697,hg38,Histone,H3K4ME1,Blood,Neutrophils,48826,2
+SRX1993713,mm10,Histone,H3K4ME1,Blood,Neutrophils,28027,2
+SRX2869674,hg38,Histone,H3K4ME1,Liver,Hepatocytes,62054,2
+SRX4051359,mm10,Histone,H3K4ME1,Liver,Hepatocytes,61943,2
+SRX2671783,hg38,Histone,H3K4ME1,Pluripotent stem cell,iPS cells,28110,2
+SRX3603023,mm10,Histone,H3K4ME1,Pluripotent stem cell,iPS cells,59491,2
+SRX1261880,hg38,Histone,H3K4ME2,Blood,CD4+ T cells,26167,2
+SRX1047899,mm10,Histone,H3K4ME2,Blood,CD4+ T cells,29763,2
+SRX1136010,hg38,Histone,H3K4ME2,Blood,Granulocytes,41415,2
+SRX203215,mm10,Histone,H3K4ME2,Blood,Granulocytes,53957,2
+SRX2380906,hg38,Histone,H3K4ME2,Blood,Hematopoietic Stem Cells,35234,2
+SRX658408,mm10,Histone,H3K4ME2,Blood,Hematopoietic Stem Cells,31010,2
+SRX3734315,hg38,Histone,H3K4ME2,Breast,Mammary glands,46157,2
+SRX031073,mm10,Histone,H3K4ME2,Breast,Mammary glands,27716,2
+SRX2166923,hg38,Histone,H3K4ME2,Neural,Retina,44729,2
+SRX2172780,mm10,Histone,H3K4ME2,Neural,Retina,53966,2
+SRX2263931,hg38,Histone,H3K4ME2,Pluripotent stem cell,iPS cells,44446,2
+SRX127401,mm10,Histone,H3K4ME2,Pluripotent stem cell,iPS cells,62478,2
+SRX976243,hg38,Histone,H3K4ME3,Blood,B cells,33353,2
+SRX668844,mm10,Histone,H3K4ME3,Blood,B cells,37733,2
+SRX8167521,hg38,Histone,H3K4ME3,Blood,CD4 CD8 double positive cells,27066,2
+SRX099394,mm10,Histone,H3K4ME3,Blood,CD4 CD8 double positive cells,30239,2
+SRX666444,hg38,Histone,H3K4ME3,Blood,CD4+ T cells,43533,2
+SRX6927317,mm10,Histone,H3K4ME3,Blood,CD4+ T cells,45422,2
+SRX1142289,hg38,Histone,H3K4ME3,Blood,CD8+ T cells,33924,2
+SRX4510526,mm10,Histone,H3K4ME3,Blood,CD8+ T cells,33434,2
+SRX1614816,hg38,Histone,H3K4ME3,Blood,Dendritic Cells,41685,2
+SRX032970,mm10,Histone,H3K4ME3,Blood,Dendritic Cells,33198,2
+SRX1089813,hg38,Histone,H3K4ME3,Blood,Hematopoietic Stem Cells,32658,2
+SRX084826,mm10,Histone,H3K4ME3,Blood,Hematopoietic Stem Cells,30775,2
+SRX2770848,hg38,Histone,H3K4ME3,Blood,Macrophages,60637,2
+SRX218753,mm10,Histone,H3K4ME3,Blood,Macrophages,44490,2
+SRX5310593,hg38,Histone,H3K4ME3,Blood,Mast Cells,29640,2
+SRX1456424,mm10,Histone,H3K4ME3,Blood,Mast Cells,31861,2
+SRX735284,hg38,Histone,H3K4ME3,Blood,Th1 Cells,30342,2
+SRX100605,mm10,Histone,H3K4ME3,Blood,Th1 Cells,59023,2
+SRX735286,hg38,Histone,H3K4ME3,Blood,Th2 Cells,30219,2
+SRX5688464,mm10,Histone,H3K4ME3,Blood,Th2 Cells,25577,2
+SRX1046559,hg38,Histone,H3K4ME3,Blood,Thymus,25389,2
+SRX389598,mm10,Histone,H3K4ME3,Blood,Thymus,31592,2
+SRX2109217,hg38,Histone,H3K4ME3,Breast,Mammary epithelial cells,42528,2
+SRX1672034,mm10,Histone,H3K4ME3,Breast,Mammary epithelial cells,26583,2
+SRX3734312,hg38,Histone,H3K4ME3,Breast,Mammary glands,27882,2
+SRX1425165,mm10,Histone,H3K4ME3,Breast,Mammary glands,34958,2
+SRX2869675,hg38,Histone,H3K4ME3,Liver,Hepatocytes,43976,2
+SRX3942948,mm10,Histone,H3K4ME3,Liver,Hepatocytes,62323,2
+SRX974431,hg38,Histone,H3K4ME3,Liver,Liver,58662,2
+SRX1479650,mm10,Histone,H3K4ME3,Liver,Liver,57136,2
+SRX974427,hg38,Histone,H3K4ME3,Lung,Lung,51364,2
+SRX062974,mm10,Histone,H3K4ME3,Lung,Lung,33904,2
+SRX7805779,hg38,Histone,H3K4ME3,Neural,Neural Stem Cells,25566,2
+SRX3029208,mm10,Histone,H3K4ME3,Neural,Neural Stem Cells,31249,2
+SRX2383623,hg38,Histone,H3K4ME3,Pluripotent stem cell,ES cells,51431,2
+SRX203377,mm10,Histone,H3K4ME3,Pluripotent stem cell,ES cells,62336,2
+SRX2671805,hg38,Histone,H3K4ME3,Pluripotent stem cell,iPS cells,40535,2
+SRX3603062,mm10,Histone,H3K4ME3,Pluripotent stem cell,iPS cells,59650,2
+SRX481465,hg38,Histone,H3K4ME3,Prostate,Prostate,35999,2
+SRX283742,mm10,Histone,H3K4ME3,Prostate,Prostate,32213,2
+SRX5763011,hg38,Histone,H3K9ME3,Pluripotent stem cell,ES cells,26527,2
+DRX013342,mm10,Histone,H3K9ME3,Pluripotent stem cell,ES cells,58019,2
+SRX3095325,hg38,Histone,H3K9ME3,Pluripotent stem cell,iPS cells,31184,2
+SRX2172874,mm10,Histone,H3K9ME3,Pluripotent stem cell,iPS cells,42502,2
